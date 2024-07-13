@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="paginaGeneral">
+    <aside>
+        <header><h1>Petshop</h1></header>
+        <nav>
+        <ul>
+            <li>
+            <a class="botonVolver" href="index.html">Volver a la tienda </a>
+            </li>
+        </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <h2 class="tituloPrincipal">Toda la tienda</h2>
+        <div id="contenedorCarrito">
+            <p class="carritoVacio">Tu carrito esta vacio.</p>
+
+            <div class="carritoProductos">
+                <div class="carritoProducto">
+                    <img src="./img/equilibrio-cachorros.jpg" alt=" Comida cachorros">
+                    <div class="carritoArticuloNombre">
+                        <small>Nombre</small>
+                        <h3>Comida cachorros</h3>
+                    </div>
+                    <div class="carritoArticuloCantidad">
+                        <small>Cantidad</small>
+                        <p>1</p>
+                    </div>
+                    <div class="carritoArticuloPrecio">
+                        <small>precio</small>
+                        <p>$2400</p>
+                    </div>
+                    <div class="carritoArticuloSubTotal">
+                        <small>Subtotal</small>
+                        <p>$2400</p>
+                    </div>
+
+                    <button class="carritoArticuloBorrar">Borrar</button>
+
+
+                </div>
+
+                <div class="carritoProductos">
+                    <div class="carritoProducto">
+                        <img src="./img/Equilibrio-gato-adulto-x-1.5-kg.jpeg" alt=" Comida Gato">
+                        <div class="carritoArticuloNombre">
+                            <small>Nombre</small>
+                            <h3>Comida Gato</h3>
+                        </div>
+                        <div class="carritoArticuloCantidad">
+                            <small>Cantidad</small>
+                            <p>2</p>
+                        </div>
+                        <div class="carritoArticuloPrecio">
+                            <small>precio</small>
+                            <p>$800</p>
+                        </div>
+                        <div class="carritoArticuloSubTotal">
+                            <small>Subtotal</small>
+                            <p>$1600</p>
+                        </div>
+    
+                        <button class="carritoArticuloBorrar">Borrar </button>
+    
+    
+                    </div>
+            </div>
+
+            <div class="carritoAcciones">
+                <div class="carritoAccionesIquierda">
+                    <button class="CarritoAccionesVaciar">Vaciar carrito</button>
+                </div>
+                <div class="carritoAccionesDerecha">
+                    <div class="carritoAccionesTotal">
+                        <p> total: </p>
+                        <p id="total">3000</p>
+                    </div>
+                    <button class="carritoAccionesComprar">comprar ahora</button>
+                </div>
+
+                
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./js/carrito.js"></script>
+</body>
+</html>

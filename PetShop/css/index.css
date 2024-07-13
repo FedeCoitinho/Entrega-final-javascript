@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, p, a {
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.paginaGeneral{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: brown;
+
+}
+aside{
+    padding:2rem;
+    color: white;
+    position: sticky;
+    height: 100vh;
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+footer{
+    font-size: 1rem;
+    color: antiquewhite;
+}
