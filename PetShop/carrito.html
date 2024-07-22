@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <div class="paginaGeneral">
@@ -18,79 +19,30 @@
         </nav>
     </aside>
 
-    <main>
-        <h2 class="tituloPrincipal">Toda la tienda</h2>
-        <div id="contenedorCarrito">
-            <p class="carritoVacio">Tu carrito esta vacio.</p>
-
-            <div class="carritoProductos">
-                <div class="carritoProducto">
-                    <img src="./img/equilibrio-cachorros.jpg" alt=" Comida cachorros">
-                    <div class="carritoArticuloNombre">
-                        <small>Nombre</small>
-                        <h3>Comida cachorros</h3>
-                    </div>
-                    <div class="carritoArticuloCantidad">
-                        <small>Cantidad</small>
-                        <p>1</p>
-                    </div>
-                    <div class="carritoArticuloPrecio">
-                        <small>precio</small>
-                        <p>$2400</p>
-                    </div>
-                    <div class="carritoArticuloSubTotal">
-                        <small>Subtotal</small>
-                        <p>$2400</p>
-                    </div>
-
-                    <button class="carritoArticuloBorrar">Borrar</button>
-
-
-                </div>
-
-                <div class="carritoProductos">
-                    <div class="carritoProducto">
-                        <img src="./img/Equilibrio-gato-adulto-x-1.5-kg.jpeg" alt=" Comida Gato">
-                        <div class="carritoArticuloNombre">
-                            <small>Nombre</small>
-                            <h3>Comida Gato</h3>
-                        </div>
-                        <div class="carritoArticuloCantidad">
-                            <small>Cantidad</small>
-                            <p>2</p>
-                        </div>
-                        <div class="carritoArticuloPrecio">
-                            <small>precio</small>
-                            <p>$800</p>
-                        </div>
-                        <div class="carritoArticuloSubTotal">
-                            <small>Subtotal</small>
-                            <p>$1600</p>
-                        </div>
-    
-                        <button class="carritoArticuloBorrar">Borrar </button>
-    
-    
-                    </div>
+    <main class="main">
+        <h2 class="tituloPrincipal">Tu compra</h2>
+        <div0 class="contenedorCarrito">
+            <p id="carritoVacio" class="carritoVacio">Tu carrito esta vacio.</p>
+            <div id="carritoArticulos" class="carritoArticulos oculto">
             </div>
-
-            <div class="carritoAcciones">
+            <div id="carritoAcciones" class="carritoAcciones oculto">
                 <div class="carritoAccionesIquierda">
-                    <button class="CarritoAccionesVaciar">Vaciar carrito</button>
+                    <button id="carritoAccionesVaciar" class="carritoAccionesVaciar">Vaciar carrito</button>
                 </div>
                 <div class="carritoAccionesDerecha">
                     <div class="carritoAccionesTotal">
                         <p> total: </p>
-                        <p id="total">3000</p>
+                        <p id="total"></p>
                     </div>
-                    <button class="carritoAccionesComprar">comprar ahora</button>
+                    <button id="carritoAccionesComprar" class="carritoAccionesComprar">comprar ahora</button>
                 </div>
 
+                <p id="carritoComprado" class="carritoComprado">Tu compra se a realizado con exito</p>
                 
             </div>
-        </div>
+        </div0>
     </main>
-
+    </div>
 
     <script src="./js/carrito.js"></script>
 </body>
